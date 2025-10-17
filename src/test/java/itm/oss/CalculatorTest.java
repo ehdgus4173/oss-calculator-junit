@@ -1,9 +1,8 @@
 package itm.oss;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;
-
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -44,6 +43,12 @@ class CalculatorTest {
         assertFalse(calc.isPrime(-3), "There are not negative primer numbers.");
         assertFalse(calc.isPrime(-4), "There are not negative primer numbers.");
         assertFalse(calc.isPrime(-5), "There are not negative primer numbers.");
+    }
+
+    @Test
+    @DisplayName("Fail test for OSS Week 6")
+    void testForFailure() {
+        assertEquals(10, calc.add(10, 10), "10 + 10 = 20");
     }
 
 }
