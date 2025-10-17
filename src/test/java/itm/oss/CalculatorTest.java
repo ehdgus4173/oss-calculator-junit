@@ -45,10 +45,10 @@ class CalculatorTest {
         assertFalse(calc.isPrime(-5), "There are not negative primer numbers.");
     }
 
-    @Test
-    @DisplayName("Fail test for OSS Week 6")
-    void testForFailure() {
-        assertEquals(10, calc.add(10, 10), "10 + 10 = 20");
-    }
+    // @Test
+    // @DisplayName("Fail test for OSS Week 6")
+    // void testForFailure() {
+    // assertEquals(10, calc.add(10, 10), "10 + 10 = 20");
+    // }
 
 }
