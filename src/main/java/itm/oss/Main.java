@@ -7,6 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Calculator calc = new Calculator();        
         while (true) {
+            System.out.println("Good Morning!");
             System.out.println("=== Calculator Menu ===");
             System.out.println("1. Add");
             System.out.println("2. Subtract");
